@@ -1,0 +1,11 @@
+﻿.page-loading{
+                      position:fixed;
+                      top:0;
+                      left:0;
+                      right:0;
+                      bottom:0;
+                      background:#fff 
+                      url(../images/loading.gif) center center no-repeat;
+                      z-index:5000;
+                      background-size:85px 85px;
+}
