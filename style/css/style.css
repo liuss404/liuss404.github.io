@@ -15,7 +15,7 @@ body {
 
 }
 
-body *{
+body1 *{
 
 	-webkit-filter: grayscale(100%); /*  webkit */
 	
