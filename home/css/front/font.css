@@ -1,0 +1,6 @@
+@font-face {
+  font-family:HONORSansCN-Regular;font-style: normal;font-display: swap;
+  src: url('../webfonts/HONORSansCN-Regular.woff2') format('woff2'),
+       url('../webfonts/HONORSansCN-Regular.woff') format('woff');
+}
+*{font-family:HONORSansCN-Regular;}
