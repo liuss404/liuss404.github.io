@@ -57,13 +57,13 @@
     }
     
     body[data-status="voted"][data-vote-status="resolve"] {
-        color: var(--color-green);
-        box-shadow: 0 0 0 var(--body-padding) var(--color-green) inset
+        color: var(--color-orange);
+        box-shadow: 0 0 0 var(--body-padding) var(--color-orange) inset
     }
     
     body[data-status="voted"][data-vote-status="reject"] {
-        color: var(--color-red);
-        box-shadow: 0 0 0 var(--body-padding) var(--color-red) inset
+        color: var(--color-orange);
+        box-shadow: 0 0 0 var(--body-padding) var(--color-orange) inset
     }
     
     .magi-box {
@@ -241,8 +241,8 @@
         height: 8em;
         display: inline-block;
         box-shadow: 0 0 0 .1em var(--color-black), 0 0 0 .4em currentColor, 0 0 0 .5em var(--color-black);
-        background: var(--color-blue);
         background: var(--color-green);
+        
         text-align: center;
         padding: 0;
         font-family: 'Neue Helvetica', Helvetica, sans-serif;
@@ -310,7 +310,7 @@
     }
     
     .final-vote-status[data-status="reject"] {
-        color: var(--color-red)
+        color: var(--color-orange)
     }
     
     .final-vote-status[data-status="reject"]:before {
@@ -318,7 +318,7 @@
     }
     
     .final-vote-status[data-status="resolve"] {
-        color: var(--color-green)
+        color: var(--color-orange)
     }
     
     .final-vote-status[data-status="resolve"]:before {
@@ -330,7 +330,7 @@
     }
     
     body[data-status="voting"] .magi-item {
-        background: var(--color-green);
+        background: var(--color-blue);
         animation: magi-flash var(--flash-time) infinite step-end
     }
     
@@ -396,7 +396,7 @@
     }
     
     body[data-status="voted"] .magi-item[data-status="resolve"] {
-        background: var(--color-green)
+        background: var(--color-blue)
     }
     
     body[data-status="voted"] .magi-item[data-status="resolve"] h2:before {
